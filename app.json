@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Kova Paint",
+    "icon": "./assets/icon.png",
+    "version": "1.0.5",
+    "slug": "kova-paint",
+    "ios": {
+      "bundleIdentifier": "com.tnt.kova",
+      "buildNumber": "1.0.5",
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "package": "com.tnt.kova",
+      "versionCode": 5,
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
