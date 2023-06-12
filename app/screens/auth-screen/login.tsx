@@ -230,7 +230,7 @@ export const LoginScreen = () => {
               color: "#F4DDDD",
               fontSize: 13,
               lineHeight: 15.73,
-            }}>Đăng ký tài khoản? </Text>
+            }}>Đăng ký tài khoản?</Text>
           </TouchableOpacity>
         </View>
       </Screen>
