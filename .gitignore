@@ -88,6 +88,10 @@ local.properties
 *.iml
 *.hprof
 
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.jar
+!gradle-wrapper.properties
 
 # node.js
 #
